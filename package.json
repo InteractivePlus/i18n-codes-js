@@ -1,0 +1,26 @@
+{
+  "name": "i18n-codes-js",
+  "version": "0.0.1",
+  "description": "Country, Locale, Language, Currency Codes in Typescript Library Format",
+  "main": "dist/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InteractivePlus/i18n-codes-js.git"
+  },
+  "keywords": [
+    "iso-639-1",
+    "locale",
+    "country",
+    "language",
+    "currency"
+  ],
+  "author": "InteractivePlus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InteractivePlus/i18n-codes-js/issues"
+  },
+  "homepage": "https://github.com/InteractivePlus/i18n-codes-js#readme"
+}
