@@ -5,3 +5,4 @@ Country / Currency / Language / Locale / TLD Lists in TS Library Format
 
 1. run `npm install`
 2. run `npm run generate-data`
+3. run `npm run generate-typings`

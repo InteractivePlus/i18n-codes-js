@@ -22,8 +22,8 @@ function copyDir(src, dist, filter) {
         try{
             let paths = fs.readdirSync(src);
             paths.forEach(function(path) {
-                var _src = pathUtil.join(src, '/', path);
-                var _dist = pathUtil.join(dist, '/', path);
+                let _src = pathUtil.join(src, '/', path);
+                let _dist = pathUtil.join(dist, '/', path);
                 //try block required here, but anyways
                 let stat = fs.statSync(_src);
 

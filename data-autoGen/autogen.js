@@ -1,15 +1,11 @@
+import { exit } from 'process';
 import {copyDir} from './FileUtil.js';
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
-import path from 'path';
 
 if(process.argv.length - 2 !== 2){
     console.log('usage: node autogen.js source_dir target_dir');
-    process.exit(-1);
+    exit(-10000);
 }
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
 
 let canCopyFilePreg = new RegExp('^.*\.json$','g');
 let filterFunc = (isFile, srcFileName, distFileName) => {
@@ -20,9 +16,10 @@ let filterFunc = (isFile, srcFileName, distFileName) => {
     }
 }
 
-
 try{
     copyDir(process.argv[2],process.argv[3],filterFunc);
+    exit(0);
 }catch(err){
-    console.log(err);
+    console.error(err);
+    exit(-11000);
 }
