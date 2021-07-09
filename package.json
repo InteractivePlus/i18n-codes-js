@@ -4,7 +4,8 @@
   "description": "Country, Locale, Language, Currency Codes in Typescript Library Format",
   "main": "dist/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-data": "node ./data-autoGen/genALL.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/InteractivePlus/i18n-codes-js/issues"
   },
-  "homepage": "https://github.com/InteractivePlus/i18n-codes-js#readme"
+  "homepage": "https://github.com/InteractivePlus/i18n-codes-js#readme",
+  "dependencies": {
+    "@types/node": "^16.0.1"
+  },
+  "type": "module"
 }

@@ -1,0 +1,15 @@
+[submodule "data-orig/country-list"]
+	path = data-orig/country-list
+	url = https://github.com/umpirsky/country-list
+[submodule "data-orig/currency-list"]
+	path = data-orig/currency-list
+	url = https://github.com/umpirsky/currency-list
+[submodule "data-orig/language-list"]
+	path = data-orig/language-list
+	url = https://github.com/umpirsky/language-list
+[submodule "data-orig/locale-list"]
+	path = data-orig/locale-list
+	url = https://github.com/umpirsky/locale-list
+[submodule "data-orig/tld-list"]
+	path = data-orig/tld-list
+	url = https://github.com/umpirsky/tld-list
