@@ -22,7 +22,7 @@ function generateJSConstArrayDef(variableName, possibleValues){
     );
 }
 
-function generateTSConstArrayDef(variableName, possibleValues){
+function generateTSConstArrayDef(variableType, variableName, possibleValues){
     let newPossibleValues = [];
     possibleValues.forEach(function(value){
         newPossibleValues.push(
@@ -30,7 +30,7 @@ function generateTSConstArrayDef(variableName, possibleValues){
         );
     });
     return (
-        'const ' + variableName + ' : string[] = [\r\n'
+        'const ' + variableName + ' : ' + variableType + '[] = [\r\n'
         + '\t' + newPossibleValues.join(',\r\n\t') + '\r\n'
         + '];'
     );

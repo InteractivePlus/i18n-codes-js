@@ -25,7 +25,7 @@ try{
         '  * See LICENSE in the project root\r\n' +
         '*/\r\n'+
         generateTSTypeDef(keyStoreVarName,readRst.keys) + '\r\n'+
-        generateTSConstArrayDef(keyArrayVarName,readRst.keys) + '\r\n'+
+        generateTSConstArrayDef(keyStoreVarName,keyArrayVarName,readRst.keys) + '\r\n'+
         '' + //generateTSTypeDef(capitalizeFirstLetter(process.argv[5]),readRst.values) + '\r\n'
         'export type { ' + keyStoreVarName + ' };\r\n' +
         'export { ' + keyArrayVarName + ' };'
