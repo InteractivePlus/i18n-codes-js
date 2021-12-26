@@ -20,6 +20,7 @@ try{
     let writeContent = (
         '/** \r\n' +
         '  * Content Created By AutoGen\r\n' +
+        '  * AutoGen Code by Yunhao Cao(Github @ ToiletCommander), Copyright 2021-2022 Interactiveplus.org \r\n' +
         '  * We use MIT license, please give credit to the original author\r\n' +
         '  * See LICENSE in the project root\r\n' +
         '*/\r\n'+

@@ -1,5 +1,6 @@
 /** 
   * Content Created By AutoGen
+  * AutoGen Code by Yunhao Cao(Github @ ToiletCommander), Copyright 2021-2022 Interactiveplus.org 
   * We use MIT license, please give credit to the original author
   * See LICENSE in the project root
 */
